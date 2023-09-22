@@ -23,7 +23,7 @@ body{
 .dropdown-container {
     display: flex;
     flex-direction: column;
-    min-height: 326px;
+    min-height: 60px;
 }
 
 .dropdown-search {
@@ -66,6 +66,9 @@ body{
     line-height: 28px;
     border: 1px solid #000;
     background-color: #E27BEB;
+}
+.chosen-container span{
+    display: block;
 }
 
 .btn-close {
